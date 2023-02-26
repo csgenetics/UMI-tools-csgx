@@ -93,15 +93,15 @@ Operating System :: MacOS
 
 setup(
     # package information
-    name='umi_tools',
+    name='umi_tools_csgx',
     version=__version__,
-    description='umi_tools: Tools for UMI analyses',
+    description='umi_tools_csgx: csgx adaptation of UMI-tools for use in csgx analyses',
     author='Ian Sudbery',
     author_email='i.sudbery@sheffield.ac.uk',
     license="MIT",
     platforms=["any"],
     keywords="computational genomics",
-    long_description='umi_tools: Tools for UMI analyses',
+    long_description='umi_tools_csgx: csgx adaptation of UMI-tools for use in csgx analyses',
     classifiers=list(filter(None, classifiers.split("\n"))),
     url="https://github.com/CGATOxford/UMI-tools",
     download_url="https://github.com/CGATOxford/UMI-tools/tarball/%s" % __version__,
